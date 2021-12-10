@@ -1,0 +1,243 @@
+
+
+
+			Module : 7-1 CSS3 Module Introduction visibility hidden vs display none
+
+
+
+
+visibility: hidden;		position thakbe but hidden
+
+visibility: visible;
+
+
+display: none;			position o thakbena display o hobe na
+
+display: block; or inline;
+
+
+
+
+.end-----------------------------------------------------------------------------------------------
+
+
+
+
+
+			Module : 7-2 CSS Overflow visible, hidden, scroll, text-overflow, ellipsis
+
+
+overflow: hidden;			content bad pore jabe
+
+overflow: scroll;			scrollable hobe
+
+overflow-y: scroll
+
+overflow-x: hidden;			x axis er scroll chino thakbe na
+
+
+
+
+white-space: nowrap;			
+					.short-text{
+           				 white-space: nowrap;
+        				}
+
+
+text-overflow: ellipsis;	[ 3 dot horizental ]
+					        .short-text {
+         					white-space: nowrap;
+            					overflow: hidden;
+            					text-overflow: ellipsis;
+       						 }
+
+
+
+
+
+.end-----------------------------------------------------------------------------------------------
+
+
+
+
+
+			Module : 7-3 Optimize images, types of images, svg, png, jpg, Sprite
+
+
+
+photopea.com		image height wight komano
+
+tinypng.com		image size komano website
+
+svg			
+
+
+.end-----------------------------------------------------------------------------------------------
+
+
+
+
+
+			Module : 7-4 Add icons using font awesome and create social links
+
+
+https://fontawesome.com/
+
+color change:			.fas{
+					color: red;
+				}
+
+size change:
+				.
+
+see video
+
+
+
+
+.end-----------------------------------------------------------------------------------------------
+
+
+
+
+
+			Module : 7-5 Transform element using rotate scale translate
+
+
+transform: scale(.5);
+					.inner {
+            				background-color: lightcoral;
+           				 transform: scale(.5);
+       					 }
+
+
+
+transform: rotate(30deg)
+					.inner {
+            				background-color: lightcoral;
+           				 transform: rotate(30deg)
+        				}
+
+
+transform: rotate(30deg) 
+transform:scale(.5)			ek sathe 2 ta transform kaj kore na
+					sudhu last one ta kaj kore
+					
+					2 rokom kaj koraite chaile
+					ek sathe 2 ta value likhte hobe
+
+			jemon
+			transform: rotate(30deg) scale(.5);
+			transform: translate(50px) rotate(30deg) scale(.5);
+		Y	transform: translateY(50px) rotate(30deg) scale(.5);
+
+		X+Y	transform: translate(50px, 50px) rotate(30deg) scale(.5);
+
+
+
+.end-----------------------------------------------------------------------------------------------
+
+
+
+
+
+			Module : 7-6 Introduction to CSS animation Transition
+
+
+
+
+transition: width 10s;
+
+transition: width 10s linear 2s;		2s por suru hobe
+
+transition: width 10s ease 1s, height 5s;
+
+transition: width 5s, height 5s;
+
+
+
+
+
+
+transform:
+
+.box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid cadetblue;
+            background-color: coral;
+            transition: width 5s, height 5s, transform 1s;
+        }
+
+        .box:hover {
+            width: 400px;
+            height: 400px;
+            transform: rotate(70deg);
+        }
+
+
+
+
+
+.end-----------------------------------------------------------------------------------------------
+
+
+
+
+
+			Module : 7-7 Cricket match animation using transition and transform
+
+
+see video and practice.***
+
+
+
+
+.end-----------------------------------------------------------------------------------------------
+
+
+
+
+
+			Module : 7-8 (advanced) CSS animation and bounce effect with balls
+
+
+seen video
+
+
+
+
+.end-----------------------------------------------------------------------------------------------
+
+
+
+
+
+			Module : 7-9 Float left, float right, min-height, max-height, cursor
+
+
+see video and practice
+
+max-height:200px
+
+min-height:200px
+
+
+
+.end-----------------------------------------------------------------------------------------------
+
+
+
+
+
+			Module : 7-10 Module Summary
+
+
+Summary
+
+
+
+.end-----------------------------------------------------------------------------------------------
+
+
+
